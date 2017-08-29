@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portafolio Natasha Dianeey</title>
+        <meta name="description" content="Blueprint: A basic template for a page stack navigation effect" />
+        <meta name="keywords" content="blueprint, template, html, css, page stack, 3d, perspective, navigation, menu" />
+        <meta name="author" content="Codrops" />
+        <meta name="description" content="A Jquery plugin for SVG path animation">
+        <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,700" rel="stylesheet">
+        <!-- css de bootstrap, font awesome y animated -->
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/bootstrap-theme.css">
+        <link rel="stylesheet" type="text/css" href="css/animate.css" />
+        <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+		<!-- css  -->
+        <link rel="stylesheet" type="text/css" href="css/common.css" media="all">
+        <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+        <link rel="stylesheet" type="text/css" href="css/demo.css" />
+        <link rel="stylesheet" type="text/css" href="css/main.css" />
+    </head>
+    <body>
+        <header>
+            <!-- navegacion -->
+            <nav class="pages-nav">
+                <div class="pages-nav__item"><a class="link link--page" href="#home">Home</a></div>
+                <div class="pages-nav__item"><a class="link link--page" href="#perfil">Perfil</a></div>
+                <div class="pages-nav__item"><a class="link link--page" href="#habilidades" id="hab">Habilidades</a></div>
+                <div class="pages-nav__item"><a class="link link--page" href="#intereses">Intereses</a></div>
+                <div class="pages-nav__item"><a class="link link--page" href="#portafolio">Portafolio</a></div>
+                <div class="pages-nav__item"><a class="link link--page" href="#contacto">Contacto</a></div>
+            </nav>
+        </header>
+        <article class="pages-stack">
+            <!-- seccion 1 Home -->
+            <section class="page uno" id="home">
+                 <div class="container-fluid">
+                   <div id="contenedorDeLineas">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="bp-header">
+                                    <div class="decal"></div>
+                                    <div class="jumbotron">
+                                        <h1 class="name animated glow in tlt">Natasha Dianeey</h1>
+                                        <p class="tlt txtanimp" data-in-effect="bounceInDown">Front-end Web Developer & Design</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                 </div>
+            </section><!-- / -->
+            <!-- seccion 2 Perfil -->
+            <section class="page dos" id="perfil">
+                 <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <h2 class="bp-header__title-perf">PERFIL</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-6 col-md-3">
+                            <img class="imgPotafolio" src="images/NatashaDianeey.jpg" alt="">
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-9">
+                            <div class="bp-header-perf">
+                                <p class="perfilTexto">¡Hola! <br> Mi nombre es Natasha Dianeey. <br>Soy desarrolladora web front-end y Diseñadora y comunicóloga visual, estoy fascinada con el mundo digital, con particular interés en el diseño tridimensional y realidad virtual. <br>Estoy convencida de que puedo desarrollar buenos proyectos trabajando en conjunto con empresas de este sector.
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                         <!--<button class="btn btn-cv"><a href="https://natashadianeey.github.io/Portafolio/docs/NatashaDianeeyCV.pdf" download="Natasha-Dianeey-CV" target="_blank">Descarga mi CV</a></button>--->
+                                     </div>
+                                 </div>
+                            </div>
+                        </div>
+                     </div>
+                </div>
+            </section><!-- / -->
+            <!-- seccion 3 Habilidades -->
+            <section class="page tres" id="habilidades">
+                 <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-6 col-md-4" id="habEv">
+                            <div class="bp-header-hab">
+                                <h2 class="bp-header__title">Paquetería Adobe</h2>
+                                <h5 class="text-left">Illustrator&nbsp;<small>Intermedio</small></h5>
+                                <div class="skillbar clearfix " data-percent="66%">
+                                    <div class="skillbar-title"></div>
+                                    <div class="skillbar-bar"></div>
+                                </div>
+                                <h5 class="text-left">Photoshop&nbsp; <small>Intermedio</small></h5>
+                                <div class="skillbar clearfix " data-percent="66%">
+                                    <div class="skillbar-title"></div>
+                                    <div class="skillbar-bar"></div>
+                                </div>
+                                <h5 class="text-left">After Effects&nbsp;<small>Intermedio</small></h5>
+                                 <div class="skillbar clearfix " data-percent="66%">
+                                    <div class="skillbar-title"></div>
+                                    <div class="skillbar-bar"></div>
+                                </div>
+                                <h5 class="text-left">InDesign&nbsp; <small>Básico</small></h5>
+                                 <div class="skillbar clearfix " data-percent="30%">
+                                    <div class="skillbar-title"></div>
+                                    <div class="skillbar-bar"></div>
+                                </div>
+                                <h5 class="text-left">Lightroom&nbsp;<small>Básico</small></h5>
+                                 <div class="skillbar clearfix " data-percent="30%">
+                                    <div class="skillbar-title"></div>
+                                    <div class="skillbar-bar"></div>
+                                </div>
+                                <h5 class="text-left">Premiere Pro&nbsp;<small>Básico</small></h5>
+                                 <div class="skillbar clearfix " data-percent="30%">
+                                    <div class="skillbar-title"></div>
+                                    <div class="skillbar-bar"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 hidden-sm col-md-4" id="habEv">
+                            <div class="bp-header-hab">
+                                <h2 class="bp-header__title">Habilidades Blandas</h2>
+                                <h5 class="text-left">Trabajo en equipo&nbsp;<small>Avanzado</small></h5>
+                                <h5 class="text-left">Liderazgo&nbsp;<small>Intermedio</small></h5>
+                                <h5 class="text-left">Comunicación&nbsp;<small>Intermedio</small></h5>
+                                <h5 class="text-left">Autodidacta&nbsp;<small>Intermedio</small></h5>
+                                <h5 class="text-left">Manejo de Estrés&nbsp;<small>Intermedio</small></h5>
+                                <h5 class="text-left">Creatividad&nbsp;<small>Intermedio</small></h5>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <div class="bp-header-hab">
+                              <h2 class="bp-header__title">Habilidades Técnicas</h2>
+                                <h5 class="text-left">HTML y CSS&nbsp;<small>Intermedio</small></h5>
+                                <div class="skillbar clearfix " data-percent="66%">
+                                    <div class="skillbar-title"></div>
+                                    <div class="skillbar-bar"></div>
+                                </div>
+                                <h5 class="text-left">Boostrap&nbsp; <small>Intermedio</small></h5>
+                                <div class="skillbar clearfix " data-percent="66%">
+                                    <div class="skillbar-title"></div>
+                                    <div class="skillbar-bar"></div>
+                                </div>
+                                <h5 class="text-left">JavaScript&nbsp; <small>Básico</small></h5>
+                                 <div class="skillbar clearfix " data-percent="30%">
+                                    <div class="skillbar-title"></div>
+                                    <div class="skillbar-bar"></div>
+                                </div>
+                                <h5 class="text-left">jQuery&nbsp;<small>Básico</small></h5>
+                                 <div class="skillbar clearfix " data-percent="30%">
+                                    <div class="skillbar-title"></div>
+                                    <div class="skillbar-bar"></div>
+                                </div>
+                                <h5 class="text-left">GitHub&nbsp;<small>Básico</small></h5>
+                                 <div class="skillbar clearfix " data-percent="30%">
+                                    <div class="skillbar-title"></div>
+                                    <div class="skillbar-bar"></div>
+                                </div>
+                                <h5 class="text-left">Sass&nbsp;<small>Básico</small></h5>
+                                 <div class="skillbar clearfix " data-percent="30%">
+                                    <div class="skillbar-title"></div>
+                                    <div class="skillbar-bar"></div>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+                     <div class="row">
+                         <div class="hidden-xs col-sm-12 hidden-md hidden-lg" id="habEv">
+                            <div class="bp-header-hab">
+                              <h2 class="bp-header__title">Habilidades <br> Blandas</h2>
+                               <div class="visSmCen">
+                                    <h5 class="text-center">Trabajo en equipo&nbsp;<small>Avanzado</small></h5>
+                                    <h5 class="text-center">Liderazgo&nbsp;<small>Intermedio</small></h5>
+                                    <h5 class="text-center">Comunicación&nbsp;<small>Intermedio</small></h5>
+                                    <h5 class="text-center">Autodidacta&nbsp;<small>Intermedio</small></h5>
+                                    <h5 class="text-center">Manejo de Estrés&nbsp;<small>Intermedio</small></h5>
+                                    <h5 class="text-center">Creatividad&nbsp;<small>Intermedio</small></h5>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+                </div>
+            </section>
+            <!-- seccion 4 Intereses ---->
+            <section class="page cuatro" id="intereses" onclick="init();">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="bp-header">
+                                <h2 class="bp-header__title">Intereses</h2>
+                                <div class="demo-1">
+                                   <div class="col-xs-6 col-md-3">
+                                        <div class="box">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
+                                                <line class="top" x1="0" y1="0" x2="900" y2="0"/>
+                                                <line class="left" x1="0" y1="460" x2="0" y2="-920"/>
+                                                <line class="bottom" x1="300" y1="400" x2="-600" y2="400"/>
+                                                <line class="right" x1="300" y1="0" x2="300" y2="1380"/>
+                                            </svg>
+                                            <span class="fa fa-cutlery"></span>
+                                        </div>
+                                        <div class="box">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
+                                                <line class="top" x1="0" y1="0" x2="900" y2="0"/>
+                                                <line class="left" x1="0" y1="460" x2="0" y2="-920"/>
+                                                <line class="bottom" x1="300" y1="400" x2="-600" y2="400"/>
+                                                <line class="right" x1="300" y1="0" x2="300" y2="1380"/>
+                                            </svg>
+                                            <span class="fa fa-code"></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6 col-md-3">
+                                        <div class="box">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
+                                                <line class="top" x1="0" y1="0" x2="900" y2="0"/>
+                                                <line class="left" x1="0" y1="460" x2="0" y2="-920"/>
+                                                <line class="bottom" x1="300" y1="460" x2="-600" y2="460"/>
+                                                <line class="right" x1="300" y1="0" x2="300" y2="1380"/>
+                                            </svg>
+                                            <span class="fa fa-users"></span>
+                                        </div>
+                                        <div class="box">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
+                                                <line class="top" x1="0" y1="0" x2="900" y2="0"/>
+                                                <line class="left" x1="0" y1="460" x2="0" y2="-920"/>
+                                                <line class="bottom" x1="300" y1="400" x2="-600" y2="400"/>
+                                                <line class="right" x1="300" y1="0" x2="300" y2="1380"/>
+                                            </svg>
+                                            <span class="fa fa-film"></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6 col-md-3">
+                                        <div class="box">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
+                                                <line class="top" x1="0" y1="0" x2="900" y2="0"/>
+                                                <line class="left" x1="0" y1="460" x2="0" y2="-920"/>
+                                                <line class="bottom" x1="300" y1="400" x2="-600" y2="400"/>
+                                                <line class="right" x1="300" y1="0" x2="300" y2="1380"/>
+                                            </svg>
+                                            <span class="fa fa-camera-retro"></span>
+                                        </div>
+                                        <div class="box">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
+                                                <line class="top" x1="0" y1="0" x2="900" y2="0"/>
+                                                <line class="left" x1="0" y1="460" x2="0" y2="-920"/>
+                                                <line class="bottom" x1="300" y1="460" x2="-600" y2="460"/>
+                                                <line class="right" x1="300" y1="0" x2="300" y2="1380"/>
+                                            </svg>
+                                            <span class="fa fa-plane"></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6 col-md-3">
+                                        <div class="box">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
+                                                <line class="top" x1="0" y1="0" x2="900" y2="0"/>
+                                                <line class="left" x1="0" y1="460" x2="0" y2="-920"/>
+                                                <line class="bottom" x1="300" y1="400" x2="-600" y2="400"/>
+                                                <line class="right" x1="300" y1="0" x2="300" y2="1380"/>
+                                            </svg>
+                                            <span class="fa fa-graduation-cap"></span>
+                                        </div>
+                                        <div class="box">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
+                                                <line class="top" x1="0" y1="0" x2="900" y2="0"/>
+                                                <line class="left" x1="0" y1="460" x2="0" y2="-920"/>
+                                                <line class="bottom" x1="300" y1="460" x2="-600" y2="460"/>
+                                                <line class="right" x1="300" y1="0" x2="300" y2="1380"/>
+                                            </svg>
+                                            <span class="fa fa-home"></span>
+                                        </div>
+                                    </div>
+			                     </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section><!-- / -->
+            <!-- seccion 5 PORTAFOLIO-->
+            <section class="page cinco" id="portafolio">
+                 <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="bp-header-portaf cf">
+                                <h2 class="bp-header__title-portaf">Portafolio</h2>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="grid">
+                                           <!-- proyecto 1--->
+                                           <a href="http://gamol.com.mx/" target="_blank">
+                                              <figure class="effect-julia">
+                                                  <img src="images/portafolio/gamol.jpg" alt="img21"/>
+                                                  <figcaption>
+                                                      <h2><span>Gamol</span></h2>
+                                                      <p>Boostrap</p><br>
+                                                      <p>Responsive Design</p>
+                                                  </figcaption>
+                                              </figure>
+                                            </a>
+                                            <!-- proyecto 2--->
+                                            <a href="http://convencion.imcp.org.mx/" target="_blank">
+                                              <figure class="effect-julia">
+                                                  <img src="images/portafolio/ConvencionPo.jpg" alt="img22"/>
+                                                  <figcaption>
+                                                      <h2>Convención<span>  2017</span></h2>
+                                                      <p>Boostrap</p><br>
+                                                      <p>Responsive Design</p>
+                                                  </figcaption>
+                                              </figure>
+                                            </a>
+                                            <!-- proyecto 3--->
+                                            <a href="http://mindalah.com/" target="_blank">
+                                              <figure class="effect-julia">
+                                                  <img src="images/portafolio/MindalahPo.jpg" alt="img21"/>
+                                                  <figcaption>
+                                                      <h2>Mindalah</h2>
+                                                      <p>Boostrap</p><br>
+                                                      <p>Responsive Design</p>
+                                                  </figcaption>
+                                              </figure>
+                                            </a>
+                                            <!-- proyecto 4--->
+                                            <a href="http://sopart.maruchan.com.mx/" target="_blank">
+                                              <figure class="effect-julia">
+                                                  <img src="images/portafolio/SoparPot.jpg" alt="img22"/>
+                                                  <figcaption>
+                                                      <h2>Sopart<span>  2017</span></h2>
+                                                      <p>Boostrap</p><br>
+                                                      <p>Responsive Design</p>
+                                                  </figcaption>
+                                              </figure>
+                                            </a>
+                                            <!-- proyecto 5--->
+                                            <a href="http://maruchan.com.mx/masbowl/" target="_blank">
+                                              <figure class="effect-julia">
+                                                  <img src="images/portafolio/MasBowPol.jpg" alt="img21"/>
+                                                  <figcaption>
+                                                      <h2>Mas Bowl <span>  2017</span></h2>
+                                                      <p>Boostrap</p><br>
+                                                      <p>Responsive Design</p>
+                                                  </figcaption>
+                                              </figure>
+                                            </a>
+                                            <!-- proyecto 6--->
+                                            <a href="https://www.veycompara.com/" target="_blank">
+                                              <figure class="effect-julia">
+                                                  <img src="images/portafolio/veycomp.jpg" alt="img22"/>
+                                                  <figcaption>
+                                                      <h2>Veycompara</h2>
+                                                      <p>Boostrap</p><br>
+                                                      <p>Responsive Design</p>
+                                                  </figcaption>
+                                              </figure>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+                </div>
+            </section><!-- / -->
+            <!-- seccion 6 Contácto -->
+            <section class="page seis" id="contacto">
+                 <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="bp-header cf">
+                                <h2 class="bp-header__title"></h2>
+                                <div class="row">
+                                    <div class="col-md-7">
+                                        <h4 class="contactEscrib">CONTÁCTAME</h4>
+                                        <p class="fraseContact">Juntos podemos hacer grandes proyectos</p>
+                                        <!-- redes -->
+                                    </div>
+                                    <div class="col-md-5 caja_redes">
+                                        <p class="text-left text-Contact"><span class="fa fa-envelope">&nbsp;</span>ndianeey@gmail.com</p>
+                                        <p class="text-left text-Contact"><span class="fa fa-whatsapp">&nbsp;</span>55 21 14 29 70</p>
+                                        <p class="text-left text-Contact"><span class="fa fa-skype">&nbsp;</span>natasha_dianeey</p>
+                                        <p class="text-left text-Contact"><a href="https://www.linkedin.com/in/natashadianeey2705" target="_blank"><span class="fa fa-linkedin">&nbsp;</span></a>natashadianeey2705</p>
+                                        <p class="text-left text-Contact"><a href="https://github.com/NatashaDianeey" target="_blank"><span class="fa fa-github">&nbsp;</span></a>NatashaDianeey</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                     </div>
+                     <div class="row">
+                         <div class="col-xs-12">
+                             <div class="contfooter"><p class="contText">@ Natasha Dianeey <small> Laboratoria México 2016.</small></p></div>
+                         </div>
+                     </div>
+                </div>
+            </section><!-- / -->
+        </article>
+        <!-- /pages-stack -->
+        <button class="menu-button"><span>Menu</span></button>
+        <!-- SCRIPTS --->
+        <!-- lineas decorativas de fondo -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="js/modernizr-custom.js"></script>
+        <script src="js/lineas/anime.min.js"></script>
+		<script src="js/lineas/mainLinrMaker.js"></script>
+        <!--   decolines  -->
+        <script src="js/classie.js"></script>
+        <script src="js/main.js"></script>
+        <!-- Efecto en las letras de home -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+        <script src="https://yandex.st/highlightjs/7.3/highlight.min.js"></script>
+        <script src="js/lettering/jquery.fittext.js"></script>
+        <script src="js/lettering/jquery.lettering.js"></script>
+        <script src="js/lettering/jquery.textillate.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+        <script>
+
+
+              $(function (){
+                var log = function (msg) {
+                  return function () {
+                    if (console) console.log(msg);
+                  }
+                }
+                $('code').each(function () {
+                  var $this = $(this);
+                  $this.text($this.html());
+                })
+
+                var animateClasses = 'flash bounce shake tada swing wobble pulse flip flipInX flipOutX flipInY flipOutY fadeIn fadeInUp fadeInDown fadeInLeft fadeInRight fadeInUpBig fadeInDownBig fadeInLeftBig fadeInRightBig fadeOut fadeOutUp fadeOutDown fadeOutLeft fadeOutRight fadeOutUpBig fadeOutDownBig fadeOutLeftBig fadeOutRightBig bounceIn bounceInDown bounceInUp bounceInLeft bounceInRight bounceOut bounceOutDown bounceOutUp bounceOutLeft bounceOutRight rotateIn rotateInDownLeft rotateInDownRight rotateInUpLeft rotateInUpRight rotateOut rotateOutDownLeft rotateOutDownRight rotateOutUpLeft rotateOutUpRight hinge rollIn rollOut';
+
+                var $form = $('.playground form')
+                  , $viewport = $('.playground .viewport');
+
+                var getFormData = function () {
+                  var data = {
+                    loop: true,
+                    in: { callback: log('in callback called.') },
+                    out: { callback: log('out callback called.') }
+                  };
+
+                  $form.find('[data-key="effect"]').each(function () {
+                    var $this = $(this)
+                      , key = $this.data('key')
+                      , type = $this.data('type');
+
+                      data[type][key] = $this.val();
+                  });
+
+                  $form.find('[data-key="type"]').each(function () {
+                    var $this = $(this)
+                      , key = $this.data('key')
+                      , type = $this.data('type')
+                      , val = $this.val();
+
+                      data[type].shuffle = (val === 'shuffle');
+                      data[type].reverse = (val === 'reverse');
+                      data[type].sync = (val === 'sync');
+                  });
+
+                  return data;
+                };
+
+                $.each(animateClasses.split(' '), function (i, value) {
+                  var type = '[data-type]'
+                    , option = '<option value="' + value + '">' + value + '</option>';
+
+                  if (/Out/.test(value) || value === 'hinge') {
+                    type = '[data-type="out"]';
+                  } else if (/In/.test(value)) {
+                    type = '[data-type="in"]';
+                  }
+
+                  if (type) {
+                    $form.find('[data-key="effect"]' + type).append(option);
+                  }
+                });
+
+                $form.find('[data-key="effect"][data-type="in"]').val('fadeInLeftBig');
+                $form.find('[data-key="effect"][data-type="out"]').val('hinge');
+
+                $('.jumbotron h1')
+                  .fitText(0.5)
+                  .textillate({ in: { effect: 'flipInY' }});
+
+                $('.jumbotron p')
+                  .fitText(3.2, { maxFontSize: 18 })
+                  .textillate({ initialDelay: 1000, in: { delay: 3, shuffle: true } });
+
+                setTimeout(function () {
+                    $('.fade').addClass('in');
+                }, 250);
+
+                setTimeout(function () {
+                  $('h1.glow').removeClass('in');
+                }, 2000);
+
+                var $tlt = $viewport.find('.tlt')
+                  .on('start.tlt', log('start.tlt triggered.'))
+                  .on('inAnimationBegin.tlt', log('inAnimationBegin.tlt triggered.'))
+                  .on('inAnimationEnd.tlt', log('inAnimationEnd.tlt triggered.'))
+                  .on('outAnimationBegin.tlt', log('outAnimationBegin.tlt triggered.'))
+                  .on('outAnimationEnd.tlt', log('outAnimationEnd.tlt triggered.'))
+                  .on('end.tlt', log('end.tlt'));
+
+                $form.on('change', function () {
+                  var obj = getFormData();
+                  $tlt.textillate(obj);
+                }).trigger('change');
+
+              });
+
+
+                window.twttr=(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],t=window.twttr||{};if(d.getElementById(id))return t;js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);t._e=[];t.ready=function(f){t._e.push(f);};return t;}(document,"script","twitter-wjs"));
+
+        </script>
+    </body>
+</html>
